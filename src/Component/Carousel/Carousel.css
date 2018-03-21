@@ -1,0 +1,23 @@
+.carouselContainer {
+    display: inline-block;
+    margin: 10px;
+    background-size: cover;
+}
+
+.image-small {
+    composes: carouselContainer;
+    width: 100px;
+    height: 100px;
+}
+
+.image-medium {
+    composes: carouselContainer;
+    width: 200px;
+    height: 200px;
+}
+
+.image-large {
+    composes: carouselContainer;
+    width: 300px;
+    height: 300px;
+}
